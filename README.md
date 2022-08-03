@@ -1,5 +1,5 @@
 # ns-summer-2022-project
-！[Augmented Reality](https://pan.baidu.com/s/1UzzhbLYBfv9OkoH_YUA0eA) 
+![Augmented Reality](https://s2.loli.net/2022/08/03/geMtKAEqOuBz7Rb.webp) 
 ###### catalog
 1. Topic name
 2. Background information
