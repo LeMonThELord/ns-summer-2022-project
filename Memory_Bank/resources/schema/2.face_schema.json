@@ -1,0 +1,16 @@
+{
+  "table_name": "FACE",
+  "schema": [
+    {
+      "name": "FACE_ID",
+      "type": "FLOAT",
+      "extra": "PRIMARY KEY"
+    },
+    {
+      "name": "ID",
+      "type": "INTEGER",
+      "extra": "UNIQUE"
+    }
+  ], 
+  "constraints": ["FOREIGN KEY (ID) REFERENCES PEOPLE(ID)"]
+}

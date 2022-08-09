@@ -1,0 +1,21 @@
+{
+  "table_name": "CONTEXT",
+  "schema": [
+    {
+      "name": "CONTEXT_ID",
+      "type": "INTEGER",
+      "extra": "PRIMARY KEY AUTOINCREMENT"
+    },
+    {
+      "name": "KEYWORDS",
+      "type": "VARCHAR(256)",
+      "extra": "NOT NULL"
+    },
+    {
+      "name": "TIME",
+      "type": "TIMESTAMP",
+      "extra": "DEFAULT CURRENT_TIMESTAMP"
+    }
+  ], 
+  "constraints": []
+}

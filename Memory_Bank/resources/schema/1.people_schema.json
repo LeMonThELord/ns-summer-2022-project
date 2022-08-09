@@ -1,0 +1,36 @@
+{
+  "table_name": "PEOPLE",
+  "schema": [
+    {
+      "name": "ID",
+      "type": "INTEGER",
+      "extra": "PRIMARY KEY AUTOINCREMENT"
+    },
+    {
+      "name": "FIRST_NAME",
+      "type": "VARCHAR(32)",
+      "extra": ""
+    },
+    {
+      "name": "LAST_NAME",
+      "type": "VARCHAR(32)",
+      "extra": ""
+    },
+    {
+      "name": "NICK_NAME",
+      "type": "VARCHAR(32)",
+      "extra": ""
+    },
+    {
+      "name": "AGE",
+      "type": "INT",
+      "extra": ""
+    },
+    {
+      "name": "RELATION",
+      "type": "VARCHAR(32)",
+      "extra": ""
+    }
+  ], 
+  "constraints": []
+}

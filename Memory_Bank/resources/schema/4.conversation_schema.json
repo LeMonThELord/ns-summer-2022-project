@@ -1,0 +1,19 @@
+{
+  "table_name": "CONVERSATION",
+  "schema": [
+    {
+      "name": "CONTEXT_ID",
+      "type": "FLOAT",
+      "extra": "NOT NULL"
+    },
+    {
+      "name": "ID",
+      "type": "INTEGER",
+      "extra": "NOT NULL"
+    }
+  ], 
+  "constraints": [
+    "FOREIGN KEY (ID) REFERENCES PEOPLE(ID)",
+    "FOREIGN KEY (CONTEXT_ID) REFERENCES CONTEXT(ID)"
+  ]
+}
